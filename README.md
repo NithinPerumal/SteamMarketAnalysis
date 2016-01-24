@@ -1,8 +1,11 @@
-# TEST README
-## by Jacob Knispel, Nithin Perumal, Matt Buckner, and Alec Tiefenthal
+# Steam Market Data Project
+## by Jacob Knispel, Nithin Perumal, 
+## Matt Buckner, and Alec Tiefenthal
+
+Project desription...
+
+Fill me out...
 
 ---
 
-Information....
-
-Fill me out...
+More information...
