@@ -1,6 +1,21 @@
-Pretty sure about these:
-0 - Normal items* (ex: http://backpack.tf/stats/Normal/Grenade%20Launcher/Tradable/Craftable)
-5 - Unusual items (ex: http://backpack.tf/vote/id/56c30c47dea9e9c92d12234f)
-6 - Unique items (ex: http://backpack.tf/stats/Unique/Team%20Captain/Tradable/Craftable)
+Format:
+int - quality (example)
 
-*Note: These are usually not supposed to be tradeable, and are the results of hacks/bugs, hence the high prices. See: (http://steamcommunity.com/app/440/discussions/0/530646080851358206/)
+0 - Normal* (http://backpack.tf/stats/Normal/Grenade%20Launcher/Tradable/Craftable)
+1 - Genuine (http://backpack.tf/stats/Genuine/Robot%20Chicken%20Hat/Tradable/Craftable)
+2 - [Unused]
+3 - Vintage (http://backpack.tf/stats/Vintage/Gunslinger/Tradable/Craftable)
+4 - [Unused]
+5 - Unusual items (http://backpack.tf/vote/id/56c30c47dea9e9c92d12234f)
+6 - Unique items (http://backpack.tf/stats/Unique/Team%20Captain/Tradable/Craftable)
+7 - [Unused]
+8 - [Unused]
+9 - Keys** (http://backpack.tf/stats/Unique/Eerie%20Key/Tradable/Craftable)
+
+---
+
+*These are usually not supposed to be tradeable, and are the results of hacks/bugs, hence the high prices. See: (http://steamcommunity.com/app/440/discussions/0/530646080851358206/)
+We probably shouldn't use these in any calculations, as they will usually be outliers with artificially huge prices.
+
+**These appear to be mostly useless items that "no longer exist" (meaning that if someone's game is opened with one of these items in their inventory, it will disappear/turn into a different item).
+Similar to Normal items, we probably don't really care about these, just exclude them from anything we do. They'll probably usually be outliers anyway.
