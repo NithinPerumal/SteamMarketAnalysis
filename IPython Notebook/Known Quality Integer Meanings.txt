@@ -1,3 +1,8 @@
+I figured out all of the values here through trial and error using backpack.tf as a reference to make sure my assignments were correct.
+If you notice anything wrong, change it!
+
+---
+
 Format:
 int - quality (example)
 
