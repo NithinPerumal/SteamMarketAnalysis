@@ -33,3 +33,15 @@ Similar to Normal items, we probably don't really care about these, just exclude
 
 ***These items are crafted from 200 of the same unique item, so the prices tend to just be inflated versions of the orignal, which is a bit boring.
 For example, 200 Unique Pain Trains crafted together --> 1 Collector's Pain Train. See: (https://wiki.teamfortress.com/wiki/Collector%27s)
+
+
+---
+
+Suspected DefIndex Values:
+< 2000: Weapons, Hats
+2093: Name Tag
+50xx: Paint
+89xx: Transmogrifier, Enchantment/Halloween spells, Glitched Circuit Board
+20001: Chemistry Set
+30xxx: Cosmetics
+
